@@ -135,7 +135,8 @@ Global Orchestration & Blockchain Layer
 
 The blockchain acts as a decentralized ledger for resource contributions, parameter updates, and reward tokens.
 A Web3 identity system ensures each node has a wallet or identity to receive compensation for contributed compute cycles.
-Smart contracts define the rules of training tasks, gating of model parameters, staked resources, and consensus logic.
+Smart contracts define the rules of training tasks, gating of model parameters, staked resources, and consensus logic.<br>
+
 Compute & Networking Fabric
 
 A specialized P2P networking layer handles tasks like sub-graph distribution, partial parameter updates, or small data chunks.

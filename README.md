@@ -356,8 +356,8 @@ While the complexity is enormous, and many real-world obstacles remain (security
 
 <hr>
 
-<div style="background-color: #2d2d2d; padding: 20px; border-radius: 6px; margin-top: 30px;">
-<div style="border-left: 4px solid #ffd700; padding-left: 15px;">
+
+This is what xAI provided after being given the rules and synax, as well as the systematic steps through the translation pipeline in one prompt.
 
 ```ps1
 
@@ -383,9 +383,9 @@ Context: Signals that we’re using the 4th iteration (or configuration) of the 
 In this case xAI thinks AI4 means the 4th version of AI, which doesn't seem to be correct. It appears the intended message was for this piece in the verbose prompt:
 </blockquote>
 
-<p style="background: rgba(0, 10, 62, 0.8); padding: 15px; border-left: 4px solid #f0f0f0; margin: 10px 0; border-radius: 4px;">
+<blockquote style="background: rgba(0, 10, 62, 0.8); padding: 15px; border-left: 4px solid #f0f0f0; margin: 10px 0; border-radius: 4px;">
 "Let's say it's a large batch. The HPC aggregator breaks it into 50 sub-batches, distributing them to 50 sub-nodes, each with 4 GPUs."
-</p>
+</blockquote>
 <br>
 
 xAI Response Continued..

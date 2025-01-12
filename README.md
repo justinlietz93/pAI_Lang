@@ -1,4 +1,4 @@
-# Token Compression for LLMs using pAI_Lang ( Promethean AI ) 
+# Token Compression for LLMs using pAI_Lang ( Promethean AI Language ) 
 
 <div style="background-color: #1a1a1a; padding: 25px; border-radius: 8px; border: 1px solid #3d3d3d; margin: 20px 0;">
 <div style="border-left: 4px solid #007acc; padding-left: 15px;">

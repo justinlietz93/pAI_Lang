@@ -459,9 +459,9 @@ Load the compressed batch CTB001 (possibly a specialized script or subroutine).
 I ran this compressed command in a specialized dev environment pipeline that follows the predictive / deterministic translation. In return I saw 215 lines of these command procedures that were automatically generated, and placed into the execution task library for use later. At this early stage, it still has the potential to miss by a good amount, but even so, with minimal effort the results are promising and the concept is feasible.
 <br>
 <br>
-38/215 lines are shown below. After this translation step there will be continued translations to continue unraveling the data, the next step would be json format including much more context. The system has a quantum computing module that is currently tied up, and the logic basically just runs completely random numbers through legitimate quantum algorithms. This is intended to be available for use when quantum breakthroughs allow for more widespread use. It is also currently ready for running experiments though cloud services, but there wouldn't be much point except for research and learning.
+38/215 lines are shown below. After this translation step there will be continued translations to continue unraveling the data, the next step would be json format including much more context. The system has a quantum computing module that is currently tied up. I tried plugging this into the neural bridge integration layer, and when the AI started the quantum layer my computer crashed... so that was immediately tied up for storage.  The logic now basically just runs completely random numbers through legitimate quantum algorithms using existing python physics libraries. This is intended to be available for use when quantum breakthroughs allow for more widespread use. Otherwise, it is also currently ready for running experiments though cloud services, but there wouldn't be much point except for research and learning. 
 <br>
-
+<br>
 
 
 ```go {linenos}

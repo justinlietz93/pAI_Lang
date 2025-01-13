@@ -3,9 +3,9 @@
 <div style="background-color: #1a1a1a; padding: 25px; border-radius: 8px; border: 1px solid #3d3d3d; margin: 20px 0;">
 <div style="border-left: 4px solid #007acc; padding-left: 15px;">
 
-**Title**: Token Compression to Optimize Context Windows, Reduce Model Size, and Improve Performance
-**Author**: Justin Lietz  
-**Date**: January 12, 2025  
+**Title**: Token Compression to Optimize Context Windows, Reduce Model Size, and Improve Performance<br>
+**Author**: Justin Lietz  <br>
+**Date**: January 12, 2025  <br>
 **Status**: In Development
 
 </div>

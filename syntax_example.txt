@@ -1,0 +1,97 @@
+#IDX
+[!]Index nodes map to HRB_execute_prompts.json
+
+#KEY
+C### Context     R### Route      H### Hook       Q### Quantum
+T### Task        Z### Zone       L### Logic      E### Entangle
+P### Pattern     N### Neural     F### Flow       S### Superpos
+X### Chain       M### Memory     D### Data       W### Wave
+
+#CMD
+% Exec    . End     ~ Like    ^ Up     < In      ≡ Sup  
+: Flag    / Split   = Is      v Down   > Out     ∆ Ent
+[ Grp     \ Back    ! Must    $ State  @ Ref     ∇ Col
+] End     | Alt     ? Try     # Cnt    & Par     ∑ Sum
+{ Blk     + Add     _ Hide    ` Esc    ; Seq     ∏ Prod
+} End     - Sub     * Mul     ' Mark   , List    Ω Term
+
+#MAP
+A Ana     J Jump    S State   0 None   + Add
+B Batch   K Kill    T Task    1 Low    - Sub
+C Ctx     L Load    U Util    2 Mid    * Mul
+D Data    M Mon     V Ver     3 High   / Div
+E Err     N Net     W Wait    4 Max    = Eq
+F Flow    O Opt     X Exec    5 Sys    ! Not
+G Gen     P Pat     Y Sys     6 Usr    ? Try
+H Hook    Q Qry     Z Zone    7 Bot    @ At
+I Init    R Rep     # Hash    8 Now    & All
+                              9 End    | Any
+
+#POWER[Power Commands]
+%% SuperExec   :: Strict    $$ Force    ## Count    @@ Deep     ≡≡ Superpos
+!! Critical    ?? Fuzzy     && Merge    || Split    ++ Chain    ∆∆ Entangle
+<> Pipe        [] Group     {} Block    () Opt      \\ Back     ∇∇ Collapse
+^^ Elevate     vv Drop      ~~ Like     == Match    -- Cut      ∑∑ Aggregate
+
+#QUANTUM[Quantum Ops]
+≡> Superpos    ∆> Entangle   ∇> Collapse   ∑> Sum        ∏> Product
+≡| QSplit      ∆| QMerge     ∇| QForce     ∑| Reduce     ∏| Expand
+≡@ QState      ∆@ QBind      ∇@ QMeasure   ∑@ Gather     ∏@ Scatter
+≡$ QFlow       ∆$ QLink      ∇$ QProject   ∑$ Combine    ∏$ Multiply
+
+#TENSOR[Tensor Ops]
+⊗ Tensor   ⊕ Direct   ⊖ Inverse   ⊙ Hadamard  ⊘ Divide
+⋀ Join     ⋁ Split    ⋂ Inter     ⋃ Union     ⋉ Left
+
+#COMBO[Command Combos]
+%@  ExecAt     !>  Must Flow   $@  StateAt   #>  CountFlow
+%$  ExecState  !@  Must At     $<  StateIn   #<  CountIn
+%#  ExecCount  !$  Must State  $>  StateOut  #@  CountAt
+%!  ExecMust   !#  Must Count  $|  StateAlt  #|  CountAlt
+
+#CHAIN[Chain Ops]
+A>B     Flow       A>>B    Deep Flow
+A|B     Alt        A||B    Full Alt
+A+B     Add        A++B    Chain Add
+A&B     Para       A&&B    Full Para
+A@B     At         A@@B    Deep At
+A$B     State      A$$B    Full State
+
+#EX
+Basic: %C001:M>X.                    // Simple exec
+Power: %%C001:M[T001+T002]>X.        // Super exec with task merge
+Chain: %C001>X;C002>L;C003>V.        // Command chain
+Batch: %C001&C002:P>B{*T001}.        // Parallel batch
+Flow:  %C001>X?[T001|T002].          // Conditional flow
+State: $C001:A{@X001#3}.             // State with count
+Fast:  !C001>X`T001'3.               // Critical path
+Fork:  %C001/[T001+T002].            // Split with merge
+Pipe:  %C001>T001|>T002|>T003.       // Pipeline
+Deep:  %C001{@M001>N001}*3.          // Deep exec with repeat
+Safe:  ?C001[!V001=1]>T001.          // Safe exec with verify
+Super: %%C001::!{@M001>>N001&&T001}. // Super exec with deep neural
+Nuke:  %%C001::4{@@M001##3$$T001}.   // Maximum power execution
+Multi: %[C001,C002]++T001>X.         // Group chain execution
+Neural:%N001{@M001&T001}**3.         // Neural with parallel repeat
+Hook:  %H001<T001>T002\T003.         // Hook with fallback
+
+#REF
+C001=SysCore    T001=Scan     N001=Think    Q001=Find    Z001=Safe
+C002=MemStore   T002=Check    N002=Learn    Q002=Match   Z002=Risk
+C003=ProcFlow   T003=Sync     N003=Adapt    Q003=Sort    Z003=Crit
+C004=DataFlow   T004=Map      N004=Grow     Q004=Filter  Z004=Void
+C005=NetFlow    T005=Reduce   N005=Evolve   Q005=Group   Z005=Edge
+P001=Single     X001=Load     M001=Short    R001=Fast    V001=Hash
+P002=Factory    X002=Batch    M002=Long     R002=Safe    V002=Sign
+P003=Stream     X003=Fork     M003=Cache    R003=Alt     V003=Seal
+H001=PreProc    H002=PostProc H003=Error    H004=Debug   H005=Trace
+
+#BITS[Bit Operations]
+& And     | Or      ^ Xor     ~ Not
+<< Left   >> Right  ## Mask   $$ Flag
+
+#MODES[Execution Modes]
+0 None    4 Max     8 Now     A Async   Q Quantum
+1 Low     5 Sys     9 End     S Sync    E Entangled
+2 Mid     6 Usr     ? Try     P Para    W Wave
+3 High    7 Bot     ! Must    Q Seq     C Collapsed 

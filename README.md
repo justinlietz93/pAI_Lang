@@ -51,7 +51,7 @@ The compressed language—often referred to as a “Promethean” or “matrix-b
    - xAI performed the compression by encoding the full directives into a compact command sequence (the “Promethean” dialect).
 
 3. **Decoding & Validation**  
-   - The compressed command sequence was decoded by xAI back into its original, expanded directives.  
+   - The compressed command sequence was decoded by a completely new instance of xAI (Grok) back into its original, expanded directives.  
    - Quality checks ensured semantic integrity and fidelity were maintained after the round-trip process.
 
 4. **Target Environment & Goals**  

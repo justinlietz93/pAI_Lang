@@ -28,7 +28,7 @@ This document presents a potential breakthrough opportunity in the way we view e
 
 <div style="#333; padding: 10px; border-radius: 4px; font-style: italic; color: #bbb;">
 
-***Copyright (c) 2025 Justin Lietz. All rights reserved.***
+***Copyright (c) 2025 Justin Lietz. Free to use any of these ideas, just be sure to reference me.***
 </div>
 <br>
 <div style="padding: 8px; border-radius: 4px; font-size: 0.9em;">

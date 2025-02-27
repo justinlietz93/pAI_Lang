@@ -359,7 +359,7 @@ While the complexity is enormous, and many real-world obstacles remain (security
 <hr>
 
 
-This is what xAI provided after being given the language rules and syntax, as well as the systematic steps through the translation pipeline in one prompt.
+This is what xAI provided after being given the entire prompt above, with rules and syntax, as well as the systematic steps through the translation pipeline in one prompt.
 
 ```ps1
 
